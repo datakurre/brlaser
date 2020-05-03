@@ -205,6 +205,13 @@ Option "brlaserEconomode/Toner save mode" Boolean AnySetup 10
 }
 
 {
+  ModelName "HL-1210W"
+  Attribute "NickName" "" "Brother HL-1210W series, $USING"
+  Attribute "1284DeviceID" "" "MFG:Brother;CMD:PJL,HBP;MDL:HL-1210W series;CLS:PRINTER;CID:Brother Laser Type3;"
+  PCFileName "br1200.ppd"
+}
+
+{
   ModelName "HL-2030 series"
   Attribute "NickName" "" "Brother HL-2030 series, $USING"
   Attribute "1284DeviceID" "" "MFG:Brother;CMD:PJL,HBP;MDL:HL-2030 series;CLS:PRINTER;"
